@@ -149,21 +149,32 @@ $ cat wordcount_input/wordcount.txt
 
 
 To run MapReduce job that counts words in text files at local folder wordcount_input, and generate result in sorted format: 
+
 $ hadoop jar ./target/MapReduceWithHadoop-1.0-SNAPSHOT.jar com.lei.hadoop.countword.CountWordsV2 ./wordcount_input ./wordcount_output 
 
 
 To see the result from output folder wordcount_output: 
 
 $ tail wordcount_output/part-00000
+
 5	Apache
+
 5	a
+
 6	distributed
+
 8	data
+
 8	to
+
 8	of
+
 10	and
+
 10	Hadoop
+
 11	for
+
 12	A
 
 
