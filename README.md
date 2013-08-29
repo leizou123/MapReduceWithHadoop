@@ -158,23 +158,14 @@ To see the result from output folder wordcount_output:
 $ tail wordcount_output/part-00000
 
 5	Apache
-
 5	a
-
 6	distributed
-
 8	data
-
 8	to
-
 8	of
-
 10	and
-
 10	Hadoop
-
 11	for
-
 12	A
 
 
