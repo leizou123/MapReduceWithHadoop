@@ -1,4 +1,3 @@
-
 Step 1: Enable SSH to localhost
 
 Step 1: Enable SSH to localhost
@@ -79,7 +78,7 @@ Step 4: Configure environment variables for Hadoop
 
 Edit ~/.bash_profile, to add the followings : 
 
-## set Hadoop environment 
+to set Hadoop environment 
 export HADOOP_HOME=/usr/local/hadoop-1.2.1
 export HADOOP_CONF_DIR=/usr/local/hadoop-1.2.1/conf
 export PATH=$PATH:$HADOOP_HOME/bin
@@ -154,6 +153,7 @@ $ hadoop jar ./target/MapReduceWithHadoop-1.0-SNAPSHOT.jar com.lei.hadoop.countw
 
 
 To see the result from output folder wordcount_output: 
+
 $ tail wordcount_output/part-00000
 5	Apache
 5	a
